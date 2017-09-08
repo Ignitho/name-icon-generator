@@ -1,0 +1,44 @@
+/*container css*/
+.container
+{
+  width: 560px;
+  height: 400px;
+  padding: 30px;
+  margin: auto;
+  background-color: #d0d0d0;
+}
+
+/*-------------------------------------------------------*/
+
+/*circle div css*/
+.text-image
+{
+  /*width,height and border radius should be equal for circle*/
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+
+/*customize font size, weight,and font color below*/
+  font-size: 18px;
+  font-family: inherit;
+  background: black;
+  font-weight: bold;
+  color: white;
+
+/*show text in uppercase*/
+  text-transform: uppercase;
+
+  /*Please dont change this until you don't want to display the text in middle of circle*/
+  text-align: center;
+  display: table;
+  vertical-align: middle;
+}
+
+/*letter printing span css*/
+.text-image span
+{
+  /*Please dont change this until you don't want to display the text in middle of circle*/
+  vertical-align: middle;
+  display: table-cell;
+  text-align: center;
+}
