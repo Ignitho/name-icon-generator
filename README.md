@@ -7,8 +7,8 @@ Download the files and merge index.html with your project, modify generator.js a
 
 ### index.html
 
-text-img is used as outer circle.
-letters is used to append the letters inside it.
+* text-img is used as outer circle.
+* letters is used to append the letters inside it.
 
 ```
 <div id="text-img" class="text-image">
