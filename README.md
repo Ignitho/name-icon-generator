@@ -2,10 +2,10 @@
 A javascript plugin to show first letter of your first name and last name inside a circle.
 this can be used as a default image box instead of your profile image.
 
-# Usage
+## Usage
 Download the files and merge index.html with your project, modify generator.js and style.css to customize the plugin.
 
-## index.html
+### index.html
 
 <div> text-img is used as outer circle.
 <span> letters is used to append the letters inside it.
@@ -30,7 +30,7 @@ color changing function is called every time you completely replace the first na
 </form>
 ```
 
-## style.css
+### style.css
 
 * we have used a circle as background div. remove border-radius to make it square
 * text-align: center;, display: table;, vertical-align: middle; - modifying these attribute will kill the alignments.
@@ -69,9 +69,9 @@ color changing function is called every time you completely replace the first na
 
 ```
 
-## generator.js
+### generator.js
 
-### fetch functions
+#### fetch functions
 functions used to fetch values from the input boxes
 ```
 function fetchfname(value)
@@ -85,7 +85,7 @@ function fetchlname(value)
   appendname();
 }
 ```
-### append function
+#### append function
 
 function used to append values to the <span>
 
@@ -109,7 +109,7 @@ function appendname()
 
 }
 ```
-### color change function
+#### color change function
 
 function used to change the background color of the displaying <div> circle
 ```
@@ -121,6 +121,6 @@ function colorchange()
 }
 ```
 
-# License
+## License
 
 This project is open source.
