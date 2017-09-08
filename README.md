@@ -1,5 +1,5 @@
 # name-icon-generator
-A javascript plugin to show first letter of your first name and last name inside a circle.
+A pure javascript plugin to show first letter of your first name and last name inside a circle.
 this can be used as a default image box instead of your profile image.
 
 ## Usage
