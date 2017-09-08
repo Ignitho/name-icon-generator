@@ -5,11 +5,11 @@ this can be used as a default image box instead of your profile image.
 ## Usage
 * Download the files
 * Merge [index.html](index.html) with your project
-* Modify generator.js and style.css to customize the plugin.
+* Modify [generator.js](generator.js) and [style.css](style.css) to customize the plugin.
 
 ## Documentation
 
-### index.html
+### [index.html](index.html)
 
 * text-img is used as outer circle.
 * letters is used to append the letters inside it.
@@ -34,7 +34,7 @@ color changing function is called every time you completely replace the first na
 </form>
 ```
 
-### style.css
+### [style.css](style.css)
 
 * we have used a circle as background div. remove border-radius to make it square
 * text-align: center;, display: table;, vertical-align: middle; - modifying these attribute will kill the alignments.
@@ -73,7 +73,7 @@ color changing function is called every time you completely replace the first na
 
 ```
 
-### generator.js
+### [generator.js](generator.js)
 
 #### fetch functions
 functions used to fetch values from the input boxes
