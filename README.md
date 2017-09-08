@@ -3,7 +3,9 @@ A javascript plugin to show first letter of your first name and last name inside
 this can be used as a default image box instead of your profile image.
 
 ## Usage
-Download the files and merge index.html with your project, modify generator.js and style.css to customize the plugin.
+* Download the files
+* Merge index.html with your project
+* Modify generator.js and style.css to customize the plugin.
 
 ## Documentation
 
