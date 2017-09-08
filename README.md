@@ -4,7 +4,7 @@ this can be used as a default image box instead of your profile image.
 
 ## Usage
 * Download the files
-* Merge index.html with your project
+* Merge [index.html](index.html) with your project
 * Modify generator.js and style.css to customize the plugin.
 
 ## Documentation
@@ -23,7 +23,6 @@ this can be used as a default image box instead of your profile image.
 ```
 form to read the first name and last name. fetch functions are called on each key press. so the letters will
 change instantly.
-
 color changing function is called every time you completely replace the first name
 
 ```
@@ -93,7 +92,6 @@ function fetchlname(value)
 #### append function
 
 function used to append values to the <span>
-
 ```
 function appendname()
 {
